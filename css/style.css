@@ -1,5 +1,20 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+.pink_btn, .sub-card .content-sub-card button, .parent-1-container main .content button {
+  padding: 0.7rem 3.5rem;
+  border-radius: 2.5rem;
+  border: none;
+  background-color: hsl(322, 100%, 66%);
+  color: #fff;
+  margin: 1.5rem 0 0.5rem;
+}
+
+.flex-center, footer .icons-container ul li i, footer .icons-container ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .poppins-semibold {
   font-family: "Poppins", serif;
   font-weight: 600;
@@ -41,7 +56,7 @@ body {
 }
 
 .parent-1-container {
-  padding: 2rem 1.2rem 1.5rem;
+  padding: 2rem 1.4rem 1.5rem;
   margin-bottom: 3rem;
   background-color: hsl(193, 100%, 96%);
 }
@@ -74,14 +89,6 @@ body {
 }
 .parent-1-container main .content p {
   margin: 1.2rem 0;
-}
-.parent-1-container main .content button {
-  padding: 0.7rem 3.5rem;
-  border-radius: 2.5rem;
-  border: none;
-  background-color: hsl(322, 100%, 66%);
-  color: #fff;
-  margin: 0.6rem 0 3rem;
 }
 .parent-1-container main .img img {
   width: 90%;
@@ -132,19 +139,10 @@ body {
 .sub-card .content-sub-card h3 {
   font-size: 1.1rem;
 }
-.sub-card .content-sub-card button {
-  padding: 0.7rem 3.5rem;
-  border-radius: 2.5rem;
-  border: none;
-  background-color: hsl(322, 100%, 66%);
-  color: #fff;
-  margin: 1.5rem 0 0.5rem;
-}
-
 footer {
   background-color: hsl(192, 100%, 9%);
   color: #fff;
-  padding: 8rem 1rem 3rem;
+  padding: 8rem 1.2rem 3rem;
   margin-top: 13rem;
 }
 footer .logo-img img {
@@ -171,9 +169,6 @@ footer .icons-container {
 }
 footer .icons-container ul {
   list-style: none;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   gap: 1rem;
 }
 footer .icons-container ul li i {
@@ -181,9 +176,6 @@ footer .icons-container ul li i {
   border: 1px solid #fff;
   width: 2.6rem;
   height: 2.6rem;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   border-radius: 50%;
 }
 footer .icons-container ul li #instagram {
@@ -196,7 +188,7 @@ footer .copytext {
   margin-bottom: 1rem;
 }
 
-@media (min-width: 1440px) {
+@media (min-width: 992px) {
   .parent-1-container {
     padding: 2.8rem 4.5rem 0.8rem;
     background-image: url("../images/bg-hero-desktop.svg");
